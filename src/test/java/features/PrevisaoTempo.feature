@@ -30,8 +30,7 @@ Funcionalidade: Busca de Temperatura
     E preencho email "<email>"
     E clico em Avancar
     E preencho senha "<senha>"
-    E clico em Avanca
-    Quando clico no email de Previsão do tempo
+    Quando clico em Avanca
     Entao valido que o recebimento do email "<msgFinal>"
 
     Exemplos:

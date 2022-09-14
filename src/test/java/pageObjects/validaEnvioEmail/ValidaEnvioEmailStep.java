@@ -28,13 +28,9 @@ public class ValidaEnvioEmailStep {
     public void preencho_senha(String senha) {
         validaEnvioEmailLogic.preencheSenha(senha);
     }
-    @E("clico em Avanca")
+    @Quando("clico em Avanca")
     public void clico_em_avanca() {
         validaEnvioEmailLogic.clicaAvanca();
-    }
-    @Quando("clico no email de Previsão do tempo")
-    public void clico_no_email_de_previsão_do_tempo() {
-        validaEnvioEmailLogic.clicaEmail();
     }
     @Entao("valido que o recebimento do email {string}")
     public void valido_que_o_recebimento_do_email(String msgFinal) {

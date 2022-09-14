@@ -1,6 +1,6 @@
 package pageObjects.buscaTemperatura;
 
-import Utils.EnviarEmail;
+import utils.EnviarEmail;
 import drive.DriverFactory;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;

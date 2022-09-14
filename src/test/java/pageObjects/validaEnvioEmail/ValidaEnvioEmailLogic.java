@@ -35,11 +35,6 @@ public class ValidaEnvioEmailLogic extends DriverFactory {
         tempoDeEspera(6000);
     }
 
-    public void clicaEmail() {
-        validaEnvioEmailPage.getBtnLerEmail().findElement(driver).click();
-        tempoDeEspera(5000);
-    }
-
     public void validoMsg(String msgFinal) {
         String cmpValidacao = String.format(validaEnvioEmailPage.getTxtVisivel(), msgFinal);
         tempoDeEspera(2000);

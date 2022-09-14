@@ -1,4 +1,4 @@
-package Utils;
+package utils;
 
 import org.apache.commons.mail.DefaultAuthenticator;
 import org.apache.commons.mail.EmailAttachment;
@@ -31,7 +31,7 @@ public class EnviarEmail {
             email.setMsg("Olá Bom dia! Segue em anexo a previsão do tempo de 8-14 dias");
 
             EmailAttachment anexo = new EmailAttachment();
-            anexo.setPath("C:\\Users\\paloma.rodrigues\\Downloads\\O Tempo em -Sorocaba.pdf");
+            anexo.setPath("C:\\DEV\\automation_TempoCom\\O Tempo em -Sorocaba.pdf");
             anexo.setDescription("attachement");
             anexo.setName("O Tempo em -Sorocaba.pdf");
             email.attach(anexo);
